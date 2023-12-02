@@ -1,0 +1,28 @@
+mission1.pt
+
+resnet18 model
+
+-> model.load_state_dict(torch.load(PATH))
+
+
+mission2.pt
+
+{
+    'resnet18' : resnet18 model,
+    'resnet34' : resnet34 model,
+    'resnet50' : resnet50 model,
+    'resnet101' : resnet101 model,
+    'resnet152; : resnet152 model
+}
+
+
+mission3.pt
+{
+    'resnet18' : resnet18 model,
+    'resnet34' : resnet34 model,
+    'resnet50' : resnet50 model,
+    'resnet101' : resnet101 model,
+    'resnet152; : resnet152 model
+}
+
+ex)  model.load_state_dict(torch.load(PATH)['resnet18'])
